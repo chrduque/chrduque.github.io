@@ -1,7 +1,7 @@
 # Site settings
 title: Christian Duque-Arribas
 description: C. Duque-Arribas personal webpage
-# baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: https://chrduque.github.io
 url: https://chrduque.github.io
 
 # User settings
