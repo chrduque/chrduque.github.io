@@ -1,8 +1,8 @@
 # Site settings
 title: Christian Duque-Arribas
 description: C. Duque-Arribas personal webpage
-baseurl: https://chrduque.github.io
-url: https://chrduque.github.io
+baseurl: https://chrduque.astro
+url: https://chrduque.astro
 
 # User settings
 username: Christian Duque-Arribas
