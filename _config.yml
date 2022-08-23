@@ -2,7 +2,7 @@
 title: Christian Duque-Arribas
 description: C. Duque-Arribas personal webpage
 # baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: https://chrduque.github.io
 
 # User settings
 username: Christian Duque-Arribas
