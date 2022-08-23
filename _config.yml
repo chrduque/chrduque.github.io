@@ -1,8 +1,8 @@
 # Site settings
 title: Christian Duque-Arribas
 description: C. Duque-Arribas personal webpage
-baseurl: https://chrduque.astro
-url: https://chrduque.astro
+baseurl: https://chrduque.github.io
+url: https://chrduque.github.io
 
 # User settings
 username: Christian Duque-Arribas
@@ -10,7 +10,7 @@ user_description: I'm an astrophysics PhD student studying the metallicity and c
 user_title: Astrophysicist | PhD student
 email: chrduque@ucm.es
 twitter_username: chrduque
-#instagram_username: mauriciourraco7
+#instagram_username: christianduquea
 #facebook_username: mauricio.urraco
 linkedin_username: chrduque
 github_username:  chrduque
