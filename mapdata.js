@@ -16,11 +16,11 @@ var simplemaps_worldmap_mapdata={
     state_url: "",
     all_states_inactive: "yes",
     location_description: "",
-    location_color: "#D95B43",
-    location_opacity: "1",
+    location_color: "#2B547E",
+    location_opacity: "0.8",
     location_url: "",
-    location_size: "25",
-    location_type: "square",
+    location_size: "8",
+    location_type: "circle",
     all_locations_inactive: "no",
     url_new_tab: "yes",
     initial_zoom: "-1",
@@ -36,8 +36,7 @@ var simplemaps_worldmap_mapdata={
     label_hover_color: "",
     label_size: "",
     label_font: "",
-    border_hover_color: "",
-    border_size: "1",
+    border_size: "0.5",
     manual_zoom: "yes"
   },
   state_specific: {
@@ -924,45 +923,214 @@ var simplemaps_worldmap_mapdata={
   },
   locations: {
     "0": {
-      name: "New York",
-      lat: "40.71",
-      lng: "-74.0059731",
-      color: "blue",
-      type: "square"
+      lat: "40.3",
+      lng: -3.692,
+      name: "Madrid",
+      type: "circle"
     },
     "1": {
-      name: "London",
-      lat: "51.500000000",
-      lng: "-0.166666667",
-      type: "square",
-      color: "red"
+      lat: 39.469,
+      lng: -0.377,
+      name: "Valencia",
+      type: "circle"
     },
     "2": {
-      name: "Cape Town",
-      lat: "-35.916666670",
-      lng: "18.366666670",
-      type: "square",
-      color: "green"
+      lat: 36.53,
+      lng: -6.29,
+      name: "Cádiz",
+      type: "circle"
     },
     "3": {
-      name: "Beijing",
-      lat: "39.916666670",
-      lng: "116.433333300",
-      type: "square",
-      color: "orange"
+      lat: "41.5",
+      lng: "-5.75",
+      name: "Zamora",
+      type: "circle"
     },
     "4": {
-      name: "Dubai",
-      lat: "25.266666670",
-      lng: "55.333333330",
-      type: "square",
-      color: "purple"
+      lat: 42.01,
+      lng: -4.539,
+      name: "Palencia",
+      type: "circle"
     },
     "5": {
-      name: "San Juan",
-      lat: "18.466666670",
-      lng: "-66.116666670",
-      type: "square"
+      lat: 51.506,
+      lng: -0.127,
+      name: "Londres",
+      type: "circle"
+    },
+    "6": {
+      lat: 48.857,
+      lng: 2.341,
+      name: "Paris"
+    },
+    "7": {
+      lat: 43.606,
+      lng: 1.449,
+      name: "Toulouse"
+    },
+    "8": {
+      lat: 51.531,
+      lng: 9.938,
+      name: "Göttingen"
+    },
+    "9": {
+      lat: 48.136,
+      lng: 11.578,
+      name: "Múnich"
+    },
+    "10": {
+      lat: 43.71,
+      lng: 10.399,
+      name: "Pisa"
+    },
+    "11": {
+      lat: 43.782,
+      lng: 11.255,
+      name: "Florencia"
+    },
+    "12": {
+      lat: 45.438,
+      lng: 12.318,
+      name: "Venecia"
+    },
+    "13": {
+      lat: 41.903,
+      lng: 12.496,
+      name: "Roma"
+    },
+    "14": {
+      lat: 45.468,
+      lng: 9.182,
+      name: "Milán"
+    },
+    "15": {
+      lat: 52.37,
+      lng: 4.908,
+      name: "Amsterdam"
+    },
+    "16": {
+      lat: 47.5,
+      lng: 19.055,
+      name: "Budapest"
+    },
+    "17": {
+      lat: 37.085,
+      lng: -8.257,
+      name: "Albufeira"
+    },
+    "18": {
+      lat: 42.221,
+      lng: -8.733,
+      name: "Vigo"
+    },
+    "19": {
+      lat: 42.877,
+      lng: -8.544,
+      name: "Santiago de Compostela"
+    },
+    "20": {
+      lat: 41.213,
+      lng: -1.789,
+      name: "Nuévalos"
+    },
+    "21": {
+      lat: 40.244,
+      lng: 0.271,
+      name: "Alcossebre"
+    },
+    "22": {
+      lat: 39.167,
+      lng: -0.258,
+      name: "Cullera"
+    },
+    "23": {
+      lat: "38.97",
+      lng: "-0.18",
+      name: "Gandía"
+    },
+    "24": {
+      lat: 37.696,
+      lng: -0.739,
+      name: "La Manga del mar menor"
+    },
+    "25": {
+      lat: 36.752,
+      lng: -3.876,
+      name: "Nerja"
+    },
+    "26": {
+      lat: "37.18",
+      lng: "-3.60",
+      name: "Granada"
+    },
+    "27": {
+      lat: "38.92",
+      lng: "-6.333",
+      name: "Mérida"
+    },
+    "28": {
+      lat: "40.034",
+      lng: -5.752,
+      name: "Jaraíz De la Vera"
+    },
+    "29": {
+      lat: 40.948,
+      lng: -4.116,
+      name: "Segovia"
+    },
+    "30": {
+      lat: 40.658,
+      lng: -4.692,
+      name: "Ávila"
+    },
+    "31": {
+      lat: 40.964,
+      lng: -5.664,
+      name: "Salamanca, España"
+    },
+    "32": {
+      lat: 39.862,
+      lng: -4.025,
+      name: "Toledo, España"
+    },
+    "33": {
+      lat: 36.015,
+      lng: -5.603,
+      name: "Tarifa, España"
+    },
+    "34": {
+      lat: 52.044,
+      lng: -0.755,
+      name: "Milton Keynes"
+    },
+    "35": {
+      lat: 52.21,
+      lng: 0.112,
+      name: "Cambridge"
+    },
+    "36": {
+      lat: "42.936",
+      lng: "0.143"
+    },
+    "37": {
+      lat: 50.844,
+      lng: 4.356,
+      name: "Bruselas"
+    },
+    "38": {
+      lat: 51.205,
+      lng: 3.217,
+      name: "Brujas"
+    },
+    "39": {
+      lat: 51.222,
+      lng: 4.398,
+      name: "Amberes"
+    },
+    "40": {
+      lat: 51.056,
+      lng: 3.729,
+      name: "Gante"
     }
   },
   labels: {},
